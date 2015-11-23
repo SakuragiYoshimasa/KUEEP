@@ -6,10 +6,12 @@
 //  Copyright © 2015年 SakuragiYoshimasa. All rights reserved.
 //
 
-#include <iostream>
+#include "Includer.h"
+#include "Functions/bisectionMethod.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+
+    BisectionMethod::bisectionMethodSampleMain();
+    
     return 0;
 }

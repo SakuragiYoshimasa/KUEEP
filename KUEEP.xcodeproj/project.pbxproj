@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FA0B015A1C02ACC100C49B28 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA0B01591C02ACC100C49B28 /* main.cpp */; };
+		FA0B01681C02AFBB00C49B28 /* BisectionMethod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA0B01661C02AFBB00C49B28 /* BisectionMethod.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		FA0B01561C02ACC100C49B28 /* KUEEP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KUEEP; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA0B01591C02ACC100C49B28 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FA0B01641C02AF4500C49B28 /* Includer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Includer.h; sourceTree = "<group>"; };
+		FA0B01661C02AFBB00C49B28 /* BisectionMethod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BisectionMethod.cpp; sourceTree = "<group>"; };
+		FA0B01671C02AFBB00C49B28 /* BisectionMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BisectionMethod.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,20 @@
 		FA0B01581C02ACC100C49B28 /* KUEEP */ = {
 			isa = PBXGroup;
 			children = (
+				FA0B01601C02AD7800C49B28 /* Functions */,
 				FA0B01591C02ACC100C49B28 /* main.cpp */,
+				FA0B01641C02AF4500C49B28 /* Includer.h */,
 			);
 			path = KUEEP;
+			sourceTree = "<group>";
+		};
+		FA0B01601C02AD7800C49B28 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				FA0B01661C02AFBB00C49B28 /* BisectionMethod.cpp */,
+				FA0B01671C02AFBB00C49B28 /* BisectionMethod.h */,
+			);
+			path = Functions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA0B015A1C02ACC100C49B28 /* main.cpp in Sources */,
+				FA0B01681C02AFBB00C49B28 /* BisectionMethod.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +253,7 @@
 				FA0B015F1C02ACC100C49B28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
