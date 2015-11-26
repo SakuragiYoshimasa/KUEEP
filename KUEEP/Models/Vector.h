@@ -12,15 +12,19 @@
 
 class Vector : public vector<double> {
 public:
-    Vector(int size);
-
+    Vector(){};
+    Vector(int dimension);
+    int getDimension();
+    
     Vector operator + (Vector v1);
     Vector operator - (Vector v1);
     double operator * (Vector v1);
     void operator += (Vector v1);
     void operator -= (Vector v1);
+    
 private:
-    Vector();
-
+    
+    bool checkSize(Vector v0, Vector v1);
+    int dimension;
 };
 #endif

@@ -9,14 +9,12 @@
 #ifndef Includer_hpp
 #define Includer_hpp
 
-#include <stdio.h>
-#include <iostream>
-#include <stdio.h>
 #include <stdlib.h>
 #include "iostream"
 #include <iomanip>
 #include <vector>
 #include <math.h>
+#include "Expections.h"
 using namespace std;
 
 #endif /* Includer_hpp */
