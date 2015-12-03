@@ -13,6 +13,7 @@
 		FA0B016F1C02B54900C49B28 /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA0B016D1C02B54900C49B28 /* Matrix.cpp */; };
 		FA0B01731C06EEE000C49B28 /* Expections.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA0B01711C06EEE000C49B28 /* Expections.cpp */; };
 		FA0B01761C07074300C49B28 /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA0B01741C07074300C49B28 /* Utils.cpp */; };
+		FABF31D51C0FDCE8009F0BC1 /* PropagationOfPulse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FABF31D31C0FDCE8009F0BC1 /* PropagationOfPulse.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,8 @@
 		FA0B01721C06EEE000C49B28 /* Expections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Expections.h; sourceTree = "<group>"; };
 		FA0B01741C07074300C49B28 /* Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
 		FA0B01751C07074300C49B28 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		FABF31D31C0FDCE8009F0BC1 /* PropagationOfPulse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PropagationOfPulse.cpp; sourceTree = "<group>"; };
+		FABF31D41C0FDCE8009F0BC1 /* PropagationOfPulse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropagationOfPulse.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,7 @@
 		FA0B01581C02ACC100C49B28 /* KUEEP */ = {
 			isa = PBXGroup;
 			children = (
+				FABF31D61C0FE15A009F0BC1 /* Utils */,
 				FA0B01701C06EEA900C49B28 /* Constants */,
 				FA0B01691C02B50A00C49B28 /* Models */,
 				FA0B01601C02AD7800C49B28 /* Functions */,
@@ -89,6 +93,8 @@
 				FA0B01671C02AFBB00C49B28 /* BisectionMethod.h */,
 				FA0B01741C07074300C49B28 /* Utils.cpp */,
 				FA0B01751C07074300C49B28 /* Utils.h */,
+				FABF31D31C0FDCE8009F0BC1 /* PropagationOfPulse.cpp */,
+				FABF31D41C0FDCE8009F0BC1 /* PropagationOfPulse.h */,
 			);
 			path = Functions;
 			sourceTree = "<group>";
@@ -111,6 +117,13 @@
 				FA0B01721C06EEE000C49B28 /* Expections.h */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		FABF31D61C0FE15A009F0BC1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +186,7 @@
 				FA0B01761C07074300C49B28 /* Utils.cpp in Sources */,
 				FA0B015A1C02ACC100C49B28 /* main.cpp in Sources */,
 				FA0B01681C02AFBB00C49B28 /* BisectionMethod.cpp in Sources */,
+				FABF31D51C0FDCE8009F0BC1 /* PropagationOfPulse.cpp in Sources */,
 				FA0B016C1C02B53000C49B28 /* Vector.cpp in Sources */,
 				FA0B01731C06EEE000C49B28 /* Expections.cpp in Sources */,
 			);

@@ -13,9 +13,11 @@
 
 int main(int argc, const char * argv[]) {
 
+    
+    
     //BisectionMethod::bisectionMethodSampleMain();
     
-    Vector vec0 = *new Vector(5);
+    /*Vector vec0 = *new Vector(5);
     Vector vec1 = *new Vector(5);
     for(int i = 0; i < 5; i++){
         vec0[i] = i;
@@ -54,5 +56,5 @@ int main(int argc, const char * argv[]) {
         }
         cout << endl;
     }
-    return 0;
+    return 0;*/
 }
