@@ -13,6 +13,8 @@
 		FA0B016F1C02B54900C49B28 /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA0B016D1C02B54900C49B28 /* Matrix.cpp */; };
 		FA0B01731C06EEE000C49B28 /* Expections.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA0B01711C06EEE000C49B28 /* Expections.cpp */; };
 		FA0B01761C07074300C49B28 /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA0B01741C07074300C49B28 /* Utils.cpp */; };
+		FA5401501C11C5CB00B34A66 /* HeunMethod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA54014E1C11C5CB00B34A66 /* HeunMethod.cpp */; };
+		FA9F71291C108A5E008F1560 /* EulersMethod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA9F71271C108A5E008F1560 /* EulersMethod.cpp */; };
 		FABF31D51C0FDCE8009F0BC1 /* PropagationOfPulse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FABF31D31C0FDCE8009F0BC1 /* PropagationOfPulse.cpp */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +44,10 @@
 		FA0B01721C06EEE000C49B28 /* Expections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Expections.h; sourceTree = "<group>"; };
 		FA0B01741C07074300C49B28 /* Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
 		FA0B01751C07074300C49B28 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		FA54014E1C11C5CB00B34A66 /* HeunMethod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HeunMethod.cpp; sourceTree = "<group>"; };
+		FA54014F1C11C5CB00B34A66 /* HeunMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeunMethod.h; sourceTree = "<group>"; };
+		FA9F71271C108A5E008F1560 /* EulersMethod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EulersMethod.cpp; sourceTree = "<group>"; };
+		FA9F71281C108A5E008F1560 /* EulersMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EulersMethod.h; sourceTree = "<group>"; };
 		FABF31D31C0FDCE8009F0BC1 /* PropagationOfPulse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PropagationOfPulse.cpp; sourceTree = "<group>"; };
 		FABF31D41C0FDCE8009F0BC1 /* PropagationOfPulse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropagationOfPulse.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +101,10 @@
 				FA0B01751C07074300C49B28 /* Utils.h */,
 				FABF31D31C0FDCE8009F0BC1 /* PropagationOfPulse.cpp */,
 				FABF31D41C0FDCE8009F0BC1 /* PropagationOfPulse.h */,
+				FA9F71271C108A5E008F1560 /* EulersMethod.cpp */,
+				FA9F71281C108A5E008F1560 /* EulersMethod.h */,
+				FA54014E1C11C5CB00B34A66 /* HeunMethod.cpp */,
+				FA54014F1C11C5CB00B34A66 /* HeunMethod.h */,
 			);
 			path = Functions;
 			sourceTree = "<group>";
@@ -184,6 +194,8 @@
 			files = (
 				FA0B016F1C02B54900C49B28 /* Matrix.cpp in Sources */,
 				FA0B01761C07074300C49B28 /* Utils.cpp in Sources */,
+				FA5401501C11C5CB00B34A66 /* HeunMethod.cpp in Sources */,
+				FA9F71291C108A5E008F1560 /* EulersMethod.cpp in Sources */,
 				FA0B015A1C02ACC100C49B28 /* main.cpp in Sources */,
 				FA0B01681C02AFBB00C49B28 /* BisectionMethod.cpp in Sources */,
 				FABF31D51C0FDCE8009F0BC1 /* PropagationOfPulse.cpp in Sources */,
