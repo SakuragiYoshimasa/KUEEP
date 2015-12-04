@@ -1,13 +1,13 @@
 //
-//  HeunMethod.hpp
+//  FourRungeKuttaMethod.hpp
 //  KUEEP
 //
 //  Created by SakuragiYoshimasa on 2015/12/04.
 //  Copyright © 2015年 SakuragiYoshimasa. All rights reserved.
 //
 
-#ifndef HeunMethod_h
-#define HeunMethod_h
+#ifndef FourRungeKuttaMethod_hpp
+#define FourRungeKuttaMethod_hpp
 
 #include "Includer.h"
 #define K 3.0
@@ -15,9 +15,8 @@
 #define OMEGA sqrt(K/M)
 
 
-class HeunMethod {
+class FourRungeKuttaMethod {
 public:
-    HeunMethod();
     
     double time = 0;
     double deltaT = 2* M_PI/ (64*OMEGA);

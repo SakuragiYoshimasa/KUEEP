@@ -9,9 +9,7 @@
 #include "HeunMethod.h"
 
 HeunMethod::HeunMethod(){
-    this->uvt.v = 0.0;
-    this->uvt.u = 1.0;
-    this->uvt.t = 0.0;
+
 }
 
 //--------------------------------------
@@ -21,7 +19,6 @@ HeunMethod::HeunMethod(){
 //-------------------------------------
 void HeunMethod::update(){
     
-    UVT afterOneStepUVT;
     double V_k1 = getDV_DT();
     double U_k1 = getDU_DT();
     double V_k2 = getDV_DT() + deltaT * (-K/M) * getDU_DT();    //v_k2 = f(tn+1,Yn+h*k1) = f(tn+1,v + deltaT *  (-k/M)u)
