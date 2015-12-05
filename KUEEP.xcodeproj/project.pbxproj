@@ -13,6 +13,7 @@
 		FA0B016F1C02B54900C49B28 /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA0B016D1C02B54900C49B28 /* Matrix.cpp */; };
 		FA0B01731C06EEE000C49B28 /* Expections.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA0B01711C06EEE000C49B28 /* Expections.cpp */; };
 		FA0B01761C07074300C49B28 /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA0B01741C07074300C49B28 /* Utils.cpp */; };
+		FA4723981C129D1300C740AE /* LorenzAttractor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4723961C129D1300C740AE /* LorenzAttractor.cpp */; };
 		FA5401501C11C5CB00B34A66 /* HeunMethod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA54014E1C11C5CB00B34A66 /* HeunMethod.cpp */; };
 		FA5401571C11D71F00B34A66 /* FourRungeKuttaMethod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA5401551C11D71F00B34A66 /* FourRungeKuttaMethod.cpp */; };
 		FA9F71291C108A5E008F1560 /* EulersMethod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA9F71271C108A5E008F1560 /* EulersMethod.cpp */; };
@@ -45,6 +46,8 @@
 		FA0B01721C06EEE000C49B28 /* Expections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Expections.h; sourceTree = "<group>"; };
 		FA0B01741C07074300C49B28 /* Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
 		FA0B01751C07074300C49B28 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		FA4723961C129D1300C740AE /* LorenzAttractor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LorenzAttractor.cpp; sourceTree = "<group>"; };
+		FA4723971C129D1300C740AE /* LorenzAttractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LorenzAttractor.h; sourceTree = "<group>"; };
 		FA54014E1C11C5CB00B34A66 /* HeunMethod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HeunMethod.cpp; sourceTree = "<group>"; };
 		FA54014F1C11C5CB00B34A66 /* HeunMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeunMethod.h; sourceTree = "<group>"; };
 		FA5401551C11D71F00B34A66 /* FourRungeKuttaMethod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FourRungeKuttaMethod.cpp; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				FA54014F1C11C5CB00B34A66 /* HeunMethod.h */,
 				FA5401551C11D71F00B34A66 /* FourRungeKuttaMethod.cpp */,
 				FA5401561C11D71F00B34A66 /* FourRungeKuttaMethod.h */,
+				FA4723961C129D1300C740AE /* LorenzAttractor.cpp */,
+				FA4723971C129D1300C740AE /* LorenzAttractor.h */,
 			);
 			path = Functions;
 			sourceTree = "<group>";
@@ -198,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA0B016F1C02B54900C49B28 /* Matrix.cpp in Sources */,
+				FA4723981C129D1300C740AE /* LorenzAttractor.cpp in Sources */,
 				FA0B01761C07074300C49B28 /* Utils.cpp in Sources */,
 				FA5401571C11D71F00B34A66 /* FourRungeKuttaMethod.cpp in Sources */,
 				FA5401501C11C5CB00B34A66 /* HeunMethod.cpp in Sources */,

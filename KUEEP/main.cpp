@@ -10,8 +10,9 @@
 #include "Functions/bisectionMethod.h"
 #include "Models/Vector.h"
 #include "Models/Matrix.h"
+#include "LorenzAttractor.h"
 
 int main(int argc, const char * argv[]) {
-
-    
+    LorenzAttractor p = *new LorenzAttractor();
+    p.update();
 }
